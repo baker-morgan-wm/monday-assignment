@@ -1,0 +1,726 @@
+
+<!DOCTYPE html>
+<html id="main" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3448ab299a","applicationID":"534651","transactionName":"IV1XQkZZVF1VQU0BBRFaW1lVRFxCH1oMAQEa","queueTime":372,"applicationTime":7486,"agent":"js-agent.newrelic.com/nr-686.min.js"}</script>
+    <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <title>Japanese Nerds</title>
+    <link href="https://cdn.wanikani.com/assets/default-v2/application-19b6a32b109346db00fdb1ec5d5f7295.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.wanikani.com/assets/default-v2/application-330a1d9beb651ddddb9ebb2cd164c54f.js" type="text/javascript"></script>
+    <meta name="application-name" content="WaniKani">
+    <meta name="author" content="Viet Hoang, viet@tofugu.com">
+    <meta name="description" content="WaniKani is a Japanese radicals, kanji, and vocabulary learning web app that uses mnemonics and SRS to make kanji learning simple.">
+    <meta name="keywords" content="japanese kanji, japanese language, japanese learning, kanji, radicals, kanji radicals, japanese vocabulary, vocabulary, srs, spaced repetition, mnemonics, memory tricks, web app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="google" value="notranslate">
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="3nKpEAILx9Qax5gac99dBCDTZxMoX4pawdVMX/7rUiA=" name="csrf-token" />
+    <link href="https://cdn.wanikani.com/assets/favicon-220edc9b9cbcde4ec2a09a05e47fb81a.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="https://cdn.wanikani.com/assets/v03/wanikani-icon-196x-51c20ab00d800910844b91b9621e7c17.png" rel="shortcut icon" sizes="196x196" type="image/png" />
+    <link href="https://cdn.wanikani.com/assets/v03/wanikani-icon-128x-1842fbf0448e71e97e645429daa3fb7a.png" rel="shortcut icon" sizes="128x128" type="image/png" />
+    <link href="https://cdn.wanikani.com/assets/v03/wanikani-icon-128x-1842fbf0448e71e97e645429daa3fb7a.png" rel="apple-touch-icon" sizes="128x128" type="image/png" />
+    <link href="https://cdn.wanikani.com/assets/v03/wanikani-icon-128x-1842fbf0448e71e97e645429daa3fb7a.png" rel="apple-touch-icon-precomposed" sizes="128x128" type="image/png" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="footer-adjustment">
+    <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <ul class="nav">
+                    <li class="title">
+                        <a href="/dashboard">
+                            <span></span><span lang="ja">鰐蟹</span>
+                        </a>        </li><li class="lessons wanikani-tour-1 wanikani-tour-2">
+                    <a href="/lesson">
+                        <span></span>Lessons
+                    </a>        </li><li class="reviews wanikani-tour-3">
+                    <a href="/review" rel="tooltip">
+                        <span></span>Reviews
+                    </a>        </li>
+                </ul>
+                <ul class="nav additional pull-right">
+                    <li>
+                        <a data-target=".nav-collapse" data-toggle="collapse">
+                            <span><i class="icon-reorder"></i></span><span>Menu</span>
+                        </a>        </li>
+                </ul>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="dropdown levels">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span></span>Levels
+                                <i class="icon-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-header">快 PLEASANT</li><li><a href="/level/1">1</a></li><li><a href="/level/2">2</a></li><li><a href="/level/3">3</a></li><li class="disabled"><a href="#">4</a></li><li class="disabled"><a href="#">5</a></li><li class="disabled"><a href="#">6</a></li><li class="disabled"><a href="#">7</a></li><li class="disabled"><a href="#">8</a></li><li class="disabled"><a href="#">9</a></li><li class="disabled"><a href="#">10</a></li><li class="nav-header">苦 PAINFUL</li><li class="disabled"><a href="#">11</a></li><li class="disabled"><a href="#">12</a></li><li class="disabled"><a href="#">13</a></li><li class="disabled"><a href="#">14</a></li><li class="disabled"><a href="#">15</a></li><li class="disabled"><a href="#">16</a></li><li class="disabled"><a href="#">17</a></li><li class="disabled"><a href="#">18</a></li><li class="disabled"><a href="#">19</a></li><li class="disabled"><a href="#">20</a></li><li class="nav-header">死 DEATH</li><li class="disabled"><a href="#">21</a></li><li class="disabled"><a href="#">22</a></li><li class="disabled"><a href="#">23</a></li><li class="disabled"><a href="#">24</a></li><li class="disabled"><a href="#">25</a></li><li class="disabled"><a href="#">26</a></li><li class="disabled"><a href="#">27</a></li><li class="disabled"><a href="#">28</a></li><li class="disabled"><a href="#">29</a></li><li class="disabled"><a href="#">30</a></li><li class="nav-header">地獄 HELL</li><li class="disabled"><a href="#">31</a></li><li class="disabled"><a href="#">32</a></li><li class="disabled"><a href="#">33</a></li><li class="disabled"><a href="#">34</a></li><li class="disabled"><a href="#">35</a></li><li class="disabled"><a href="#">36</a></li><li class="disabled"><a href="#">37</a></li><li class="disabled"><a href="#">38</a></li><li class="disabled"><a href="#">39</a></li><li class="disabled"><a href="#">40</a></li><li class="nav-header">天堂 PARADISE</li><li class="disabled"><a href="#">41</a></li><li class="disabled"><a href="#">42</a></li><li class="disabled"><a href="#">43</a></li><li class="disabled"><a href="#">44</a></li><li class="disabled"><a href="#">45</a></li><li class="disabled"><a href="#">46</a></li><li class="disabled"><a href="#">47</a></li><li class="disabled"><a href="#">48</a></li><li class="disabled"><a href="#">49</a></li><li class="disabled"><a href="#">50</a></li><li class="nav-header nav-bonus"><i class="icon-star"></i> Bonus Material</li><li class="nav-header">現実 REALITY</li><li class="disabled"><a href="#">51</a></li><li class="disabled"><a href="#">52</a></li><li class="disabled"><a href="#">53</a></li><li class="disabled"><a href="#">54</a></li><li class="disabled"><a href="#">55</a></li><li class="disabled"><a href="#">56</a></li><li class="disabled"><a href="#">57</a></li><li class="disabled"><a href="#">58</a></li><li class="disabled"><a href="#">59</a></li><li class="disabled"><a href="#">60</a></li>
+                            </ul>
+                        </li><li class="dropdown radicals">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span lang="ja">部首</span>Radicals
+                            <i class="icon-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-header">Levels
+                            </li><li class="nested-level"><a href="/radicals?difficulty=PLEASANT">01-10</a></li><li class="nested-level disabled"><a href="/radicals?difficulty=PAINFUL">11-20</a></li><li class="nested-level disabled"><a href="/radicals?difficulty=DEATH">21-30</a></li><li class="nested-level disabled"><a href="/radicals?difficulty=HELL">31-40</a></li><li class="nested-level disabled"><a href="/radicals?difficulty=PARADISE">41-50</a></li><li class="nested-level disabled"><a href="/radicals?difficulty=REALITY">51-60</a></li><li class="nav-header">
+                            Lattice
+                        </li><li>
+                            <a href="/lattice/radicals/meaning">Name</a>
+                        </li><li>
+                            <a href="/lattice/radicals/progress">Progress</a>
+                        </li>
+                        </ul>
+                    </li><li class="dropdown kanji">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span lang="ja">漢字</span>Kanji
+                            <i class="icon-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-header">Levels
+                            </li><li class="nested-level"><a href="/kanji?difficulty=PLEASANT">01-10</a></li><li class="nested-level disabled"><a href="/kanji?difficulty=PAINFUL">11-20</a></li><li class="nested-level disabled"><a href="/kanji?difficulty=DEATH">21-30</a></li><li class="nested-level disabled"><a href="/kanji?difficulty=HELL">31-40</a></li><li class="nested-level disabled"><a href="/kanji?difficulty=PARADISE">41-50</a></li><li class="nested-level disabled"><a href="/kanji?difficulty=REALITY">51-60</a></li><li class="nav-header">
+                            Lattice
+                        </li><li>
+                            <a href="/lattice/kanji/combined">Combined</a>
+                        </li><li>
+                            <a href="/lattice/kanji/meaning">Meaning</a>
+                        </li><li>
+                            <a href="/lattice/kanji/reading">Reading</a>
+                        </li><li>
+                            <a href="/lattice/kanji/status">Progress</a>
+                        </li>
+                        </ul>
+                    </li><li class="dropdown vocabulary">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span lang="ja">単語</span>Vocab
+                            <i class="icon-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-header">Levels
+                            </li><li class="nested-level"><a href="/vocabulary?difficulty=PLEASANT">01-10</a></li><li class="nested-level disabled"><a href="/vocabulary?difficulty=PAINFUL">11-20</a></li><li class="nested-level disabled"><a href="/vocabulary?difficulty=DEATH">21-30</a></li><li class="nested-level disabled"><a href="/vocabulary?difficulty=HELL">31-40</a></li><li class="nested-level disabled"><a href="/vocabulary?difficulty=PARADISE">41-50</a></li><li class="nested-level disabled"><a href="/vocabulary?difficulty=REALITY">51-60</a></li><li class="nav-header">
+                            Lattice
+                        </li><li>
+                            <a href="/lattice/vocabulary/combined">Combined</a>
+                        </li><li>
+                            <a href="/lattice/vocabulary/meaning">Meaning</a>
+                        </li><li>
+                            <a href="/lattice/vocabulary/reading">Reading</a>
+                        </li><li>
+                            <a href="/lattice/vocabulary/status">Progress</a>
+                        </li>
+                    </li>
+                    </ul>
+                    </li>
+                    </ul><!-- nav -->
+                    <ul class="nav pull-right">
+                        <li class="dropdown account">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span style="background-image: url(//www.gravatar.com/avatar/816aa845e78487405cf035d3bc4f1f73.jpg?s=200&amp;timestamp=09152015&amp;d=https://cdn.wanikani.com/default-avatar-300x300-20121121.png);">&nbsp;</span>Menu
+                                <i class="icon-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-header">
+                                    Home
+                                </li><li>
+                                <a href="/dashboard">Dashboard</a>
+                            </li><li>
+                                <a href="/community">Community</a>
+                            </li><li class="nav-header">
+                                Account
+                            </li><li>
+                                <a href="/community/people/Morganjo">Profile</a>
+                            </li><li>
+                                <a href="/account">Settings</a>
+                            </li><li>
+                                <a href="/account/subscription">Subscription</a>
+                            </li><li>
+                                <a href="/logout" data-method="delete" rel="nofollow">Sign Out</a>
+                            </li>
+                            </ul>
+                        </li><li class="top">
+                        <a><i class="icon-circle-arrow-up"></i></a>
+                    </li>
+                    </ul><!-- nav pull-right -->
+                </div>
+            </div><!-- container -->
+        </div><!-- navbar-inner -->
+    </div><!-- navbar -->
+
+
+    <noscript>WaniKani requires JavaScript to function properly</noscript>
+
+
+
+    <div id="search">
+
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <form accept-charset="UTF-8" action="/search" data-remote="true" id="search-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+
+                        <div class="search-list btn-group">
+                            <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span id="main-ico-search"><i class="icon-search"></i></span> <i class="icon-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-header">Search the...</li>
+                                <li id="search-items"><a href="#"><i class="icon-search"></i> Radicals, Kanji, &amp; Vocabulary</a></li>
+                                <li id="search-posts"><a href="#"><i class="icon-comment"></i> Chat Posts</a></li>
+                                <li id="search-topics"><a href="#"><i class="icon-comment-alt"></i> Chat Topics</a></li>
+                            </ul>
+                        </div>
+
+                        <input class="search-query" id="query" name="query" type="text" />
+                    </form>
+                    <section class="search-results"></section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Switches search action depending on what user toggles to
+            Search.selection();
+        });
+    </script>
+
+
+    <div class="dashboard">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+
+                    <header></header>
+
+                    <section class="system-alert">
+                        <h3><i class="icon-globe"></i> Some major changes have been implemented. <a href="https://www.wanikani.com/chat/wanikani/10075" rel="nofollow">More info</a>. <time class="timeago" datetime="2015-09-08T21:33:10Z">2015-09-08 21:33:10 UTC</time></h3>
+                    </section>
+
+                    <section class="upgrade">
+                        <h3><i class="icon-lock"></i> Upgrade To Premium <span class="pull-right hide-toggle"><i class="icon-chevron-up"></i></span></h3>
+                        <div>
+                            <hr>
+                            <p>
+                                You have just reached the last free level, Morganjo!
+                            </p>
+                            <p>
+                                If your experience with WaniKani has been positive, will you consider upgrading to a Premium account? Here is a list of some of the benefits of upgrading to Premium:
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="icon-ok"></i>
+                                    Full access to content beyond level 3, opening the way to kanji enlightenment.
+                                </li>
+                                <li>
+                                    <i class="icon-ok"></i>
+                                    Visual differentiation of your account from your freemium peers in the Community Chat.
+                                </li>
+                                <li>
+                                    <i class="icon-ok"></i>
+                                    Access to future Premium-only content and features.
+                                </li>
+                                <li>
+                                    <i class="icon-ok"></i>
+                                    ... and last but not least, the removal of this upgrade message. The small things count, right?
+                                </li>
+                            </ul>
+                            <p>
+                                Have we convinced you? If so, head on over to the <a href="/account/subscription">Subscriptions page</a> to upgrade now.
+                            </p>
+                        </div>
+                    </section>
+
+
+
+                    <section class="review-status">
+                        <ul>
+                            <li class="next">
+                                <time class="timeago" datetime="">Review Time</time>
+                                <i class="icon-time"></i> Next Review
+                            </li><li class="one-hour">
+                            <span></span>
+                            <i class="icon-inbox"></i> Next Hour
+                        </li><li class="one-day">
+                            <span></span>
+                            <i class="icon-inbox"></i> Next Day
+                        </li>
+                        </ul>
+                    </section>
+
+                    <section class="srs-progress">
+                        <ul>
+                            <li id="apprentice" rel="popover-srs" title="<div class='srs-logo apprentice'></div>">
+                                <span></span>
+                                Apprentice
+                            </li><li id="guru" rel="popover-srs" title="<div class='srs-logo guru'></div>">
+                            <span></span>
+                            Guru
+                        </li><li id="master" rel="popover-srs" title="<div class='srs-logo master'></div>">
+                            <span></span>
+                            Master
+                        </li><li id="enlightened" rel="popover-srs" title="<div class='srs-logo enlightened'></div>">
+                            <span></span>
+                            Enlightened
+                        </li><li id="burned" rel="popover-srs" title="<div class='srs-logo burned'></div>">
+                            <span></span>
+                            Burned
+                        </li>
+                        </ul>
+                    </section>
+
+                    <section class="progression">
+
+                        <div class="radicals-progress">
+                            <h3>Level 3 Radicals Progression</h3>
+                            <div class="chart">
+                                <div class="progress">
+                                    <div class="bar">
+                                        <span class="dark"><b></b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="lattice-single-character">
+                                <div class="small-caps"><span>See Apprentice Radicals Left <i class="icon-chevron-down"></i></span></div>
+                                <ul><li id="radical-93"><a href="/radicals/antenna" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Antenna">干</a></li><li id="radical-137"><a href="/radicals/two-face" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Two Face">巾</a></li><li id="radical-103"><a href="/radicals/elephant" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Elephant">用</a></li><li id="radical-86"><a href="/radicals/hat" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Hat"><i class="radical-hat"></i></a></li><li id="radical-89"><a href="/radicals/triceratops" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Triceratops"><i class="radical-triceratops"></i></a></li><li id="radical-94"><a href="/radicals/mullet" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Mullet">广</a></li><li id="radical-83"><a href="/radicals/spoon" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Spoon">ヒ</a></li><li id="radical-85"><a href="/radicals/ra" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Ra">ラ</a></li><li id="radical-87"><a href="/radicals/raptor-cage" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Raptor Cage">久</a></li><li id="radical-91"><a href="/radicals/winter" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Winter">夂</a></li><li id="radical-95"><a href="/radicals/nailbat" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Nailbat">扌</a></li><li id="radical-96"><a href="/radicals/origin" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Origin">元</a></li><li id="radical-97"><a href="/radicals/heart" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Heart">心</a></li><li id="radical-98"><a href="/radicals/direction" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Direction">方</a></li><li id="radical-99"><a href="/radicals/fur" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Fur">毛</a></li><li id="radical-100"><a href="/radicals/father" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Father">父</a></li><li id="radical-101"><a href="/radicals/old" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Old">古</a></li><li id="radical-102"><a href="/radicals/drawer" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Drawer">母</a></li><li id="radical-104"><a href="/radicals/arrow" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Arrow">矢</a></li><li id="radical-105"><a href="/radicals/door" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Door">戸</a></li><li id="radical-121"><a href="/radicals/poop" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Poop">幺</a></li><li id="radical-282"><a href="/radicals/life" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Life">生</a></li></ul>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="kanji-progress">
+                            <h3>Level 3 Kanji Progression</h3>
+                            <div class="chart">
+                                <div class="progress">
+                                    <div class="bar">
+                                        <span class="dark"><b></b></span><div class="threshold" style="width: 90%;">Goal: 90%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="lattice-single-character">
+                                <div class="small-caps"><span>See Apprentice Kanji Left <i class="icon-chevron-down"></i></span></div>
+                                <ul><li id="kanji-85"><a href="/kanji/%E5%A4%96" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Outside&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;がい&lt;/span&gt;">外</a></li><li id="kanji-78"><a href="/kanji/%E6%AD%A2" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Stop&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;し&lt;/span&gt;">止</a></li><li id="kanji-456"><a href="/kanji/%E7%94%9F" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Life&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;せい, しょう&lt;/span&gt;">生</a></li><li id="kanji-62"><a href="/kanji/%E5%85%83" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Origin&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;げん, がん&lt;/span&gt;">元</a></li><li id="kanji-82"><a href="/kanji/%E5%8D%8A" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Half&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;はん&lt;/span&gt;">半</a></li><li id="kanji-86"><a href="/kanji/%E5%B8%82" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="City&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;し&lt;/span&gt;">市</a></li><li id="kanji-84"><a href="/kanji/%E5%8F%B0" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Machine&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;だい, たい&lt;/span&gt;">台</a></li><li id="kanji-89"><a href="/kanji/%E7%94%A8" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Task&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;よう&lt;/span&gt;">用</a></li><li id="kanji-70"><a href="/kanji/%E5%B0%91" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Few&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;しょう&lt;/span&gt;">少</a></li><li id="kanji-80"><a href="/kanji/%E5%86%AC" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Winter&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ふゆ&lt;/span&gt;">冬</a></li><li id="kanji-57"><a href="/kanji/%E4%B8%87" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Ten Thousand&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;まん, ばん&lt;/span&gt;">万</a></li><li id="kanji-58"><a href="/kanji/%E4%B9%85" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Long Time&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ひさ&lt;/span&gt;">久</a></li><li id="kanji-75"><a href="/kanji/%E7%89%9B" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Cow&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ぎゅう&lt;/span&gt;">牛</a></li><li id="kanji-63"><a href="/kanji/%E5%85%AC" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Public&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;こう&lt;/span&gt;">公</a></li><li id="kanji-66"><a href="/kanji/%E5%88%87" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Cut&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;せつ&lt;/span&gt;">切</a></li><li id="kanji-69"><a href="/kanji/%E5%A4%AA" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Fat&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;たい&lt;/span&gt;">太</a></li><li id="kanji-73"><a href="/kanji/%E6%88%B8" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Door&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;と&lt;/span&gt;">戸</a></li><li id="kanji-90"><a href="/kanji/%E7%9F%A2" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Arrow&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;や&lt;/span&gt;">矢</a></li><li id="kanji-88"><a href="/kanji/%E6%AF%8D" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Mother&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;はは&lt;/span&gt;">母</a></li><li id="kanji-76"><a href="/kanji/%E7%88%B6" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Father&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ちち&lt;/span&gt;">父</a></li><li id="kanji-87"><a href="/kanji/%E5%BA%83" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Wide&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ひろ&lt;/span&gt;">広</a></li><li id="kanji-65"><a href="/kanji/%E5%88%86" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Part&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ぶん, ふん, ぶ&lt;/span&gt;">分</a></li><li id="kanji-68"><a href="/kanji/%E5%8F%8B" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Friend&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ゆう&lt;/span&gt;">友</a></li><li id="kanji-74"><a href="/kanji/%E6%96%B9" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Direction&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;かた&lt;/span&gt;">方</a></li><li id="kanji-81"><a href="/kanji/%E5%8C%97" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="North&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ほく&lt;/span&gt;">北</a></li><li id="kanji-71"><a href="/kanji/%E5%BC%95" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Pull&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ひ&lt;/span&gt;">引</a></li><li id="kanji-83"><a href="/kanji/%E5%8F%A4" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Old&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;こ&lt;/span&gt;">古</a></li><li id="kanji-61"><a href="/kanji/%E4%BB%8A" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Now&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;こん&lt;/span&gt;">今</a></li><li id="kanji-72"><a href="/kanji/%E5%BF%83" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Heart&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;しん&lt;/span&gt;">心</a></li><li id="kanji-67"><a href="/kanji/%E5%8D%88" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Noon&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ご&lt;/span&gt;">午</a></li><li id="kanji-77"><a href="/kanji/%E6%AF%9B" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Fur&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;もう&lt;/span&gt;">毛</a></li><li id="kanji-79"><a href="/kanji/%E5%85%84" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Older Brother&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;あに&lt;/span&gt;">兄</a></li><li id="kanji-64"><a href="/kanji/%E5%86%85" data-content="&lt;div class=&quot;progress&quot;&gt;&lt;div class=&quot;bar&quot; style=&quot;width: 15%;&quot;&gt;0%&lt;/div&gt;&lt;/div&gt;" lang="ja" rel="auto-popover" title="Inside&lt;br&gt;&lt;span lang=&quot;ja&quot;&gt;ない&lt;/span&gt;">内</a></li></ul>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <div class="row">
+                        <div class="span4">
+                            <section class="recent-unlocks kotoba-table-list dashboard-sub-section">
+                                <h3 class="small-caps">New Unlocks In The Last 30 Days</h3>
+                                <table>
+                                    <tbody>
+                                    <tr id="vocabulary-94"><td><a href="/vocabulary/%E7%8E%8B%E5%A5%B3"><span lang="ja">王女</span><span class="pull-right"><time datetime="2015-09-12 00:52:44 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-93"><td><a href="/vocabulary/%E5%A5%B3%E7%8E%8B"><span lang="ja">女王</span><span class="pull-right"><time datetime="2015-09-12 00:52:44 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-92"><td><a href="/vocabulary/%E7%8E%8B%E5%AD%90"><span lang="ja">王子</span><span class="pull-right"><time datetime="2015-09-12 00:52:44 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-91"><td><a href="/vocabulary/%E7%8E%8B"><span lang="ja">王</span><span class="pull-right"><time datetime="2015-09-12 00:52:44 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-97"><td><a href="/vocabulary/%E5%87%BA%E5%8F%A3"><span lang="ja">出口</span><span class="pull-right"><time datetime="2015-09-12 00:50:01 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-96"><td><a href="/vocabulary/%E5%87%BA%E3%82%8B"><span lang="ja">出る</span><span class="pull-right"><time datetime="2015-09-12 00:50:01 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-95"><td><a href="/vocabulary/%E5%87%BA%E3%81%99"><span lang="ja">出す</span><span class="pull-right"><time datetime="2015-09-12 00:50:01 UTC">Sep 12</time></span></a></td></tr><tr id="vocabulary-86"><td><a href="/vocabulary/%E6%B0%B4"><span lang="ja">水</span><span class="pull-right"><time datetime="2015-09-06 01:12:51 UTC">Sep 06</time></span></a></td></tr><tr id="vocabulary-64"><td><a href="/vocabulary/%E4%BA%94"><span lang="ja">五</span><span class="pull-right"><time datetime="2015-09-06 01:12:51 UTC">Sep 06</time></span></a></td></tr><tr id="vocabulary-61"><td><a href="/vocabulary/%E4%BA%94%E6%97%A5"><span lang="ja">五日</span><span class="pull-right"><time datetime="2015-09-06 01:12:51 UTC">Sep 06</time></span></a></td></tr>
+                                    </tbody>
+                                </table>
+                                <div class="see-more">
+                                    <a href="/recent-unlocks" class="small-caps">See More Unlocks...</a>
+                                </div>
+                            </section>
+                        </div><!-- span4 -->
+                        <div class="span4">
+                            <section class="low-percentage kotoba-table-list dashboard-sub-section">
+                                <h3 class="small-caps">Critical Condition Items</h3>
+                                <table>
+                                    <tbody>
+                                    <tr id="vocabulary-88"><td><a href="/vocabulary/%E7%81%AB%E5%B1%B1"><span lang="ja">火山</span><span class="pull-right">67%</span></a></td></tr><tr id="vocabulary-127"><td><a href="/vocabulary/%E7%AB%8B%E3%81%A6%E3%82%8B"><span lang="ja">立てる</span><span class="pull-right">67%</span></a></td></tr><tr id="kanji-50"><td><a href="/kanji/%E7%8E%89"><span lang="ja">玉</span><span class="pull-right">69%</span></a></td></tr>
+                                    </tbody>
+                                </table>
+                                <div class="see-more">
+                                    <a href="/critical-items" class="small-caps">See More Critical Items...</a>
+                                </div>
+                            </section>
+                        </div><!-- span4 -->
+                        <div class="span4">
+                            <section class="recent-retired kotoba-table-list dashboard-sub-section">
+                                <h3 class="small-caps">Burned Items In The Last 30 Days</h3>
+                                <table>
+                                    <tbody>
+                                    <tr id="radical-13"><td><a href="/radicals/seven"><span lang="ja">七</span><span class="pull-right"><time datetime="2015-08-27T02:35:12+00:00">Aug 27</time></span></a></td></tr><tr id="radical-18"><td><a href="/radicals/person"><span lang="ja">人</span><span class="pull-right"><time datetime="2015-08-27T02:33:22+00:00">Aug 27</time></span></a></td></tr><tr id="radical-37"><td><a href="/radicals/tree"><span lang="ja">木</span><span class="pull-right"><time datetime="2015-08-27T02:20:49+00:00">Aug 27</time></span></a></td></tr><tr id="radical-23"><td><a href="/radicals/gun"><span lang="ja"><i class="radical-gun"></i></span><span class="pull-right"><time datetime="2015-08-27T02:19:23+00:00">Aug 27</time></span></a></td></tr><tr id="radical-17"><td><a href="/radicals/lid"><span lang="ja">亠</span><span class="pull-right"><time datetime="2015-08-27T02:18:46+00:00">Aug 27</time></span></a></td></tr><tr id="radical-30"><td><a href="/radicals/mouth"><span lang="ja">口</span><span class="pull-right"><time datetime="2015-08-27T02:05:24+00:00">Aug 27</time></span></a></td></tr><tr id="kanji-4"><td><a href="/kanji/%E4%B8%83"><span lang="ja">七</span><span class="pull-right"><time datetime="2015-08-27T02:03:43+00:00">Aug 27</time></span></a></td></tr><tr id="radical-12"><td><a href="/radicals/drop"><span lang="ja">丶</span><span class="pull-right"><time datetime="2015-08-27T01:58:33+00:00">Aug 27</time></span></a></td></tr><tr id="radical-39"><td><a href="/radicals/construction"><span lang="ja">工</span><span class="pull-right"><time datetime="2015-08-26T21:55:00+00:00">Aug 26</time></span></a></td></tr><tr id="radical-19"><td><a href="/radicals/toe"><span lang="ja">ト</span><span class="pull-right"><time datetime="2015-08-26T21:51:06+00:00">Aug 26</time></span></a></td></tr>
+                                    </tbody>
+                                </table>
+                                <div class="see-more">
+                                    <a href="/burned-items" class="small-caps">See More Burned Items...</a>
+                                </div>
+                            </section>
+                        </div><!-- span4 -->
+                    </div><!-- row -->
+
+                    <div class="row">
+                        <div class="span6">
+                            <section class="forum-topics-list dashboard-sub-section">
+                                <h3 class="small-caps invert">
+                                    <div class="heading-symbol"><i class="icon-comments"></i></div>
+                                    Recent Community Chat Topics
+                                </h3>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td class="description">
+                                            <a href="/chat/kanji-and-japanese/10161" class="topic-title">When to begin grammar study; time allocation relative to Kanji</a><br>@ <a href="/chat/kanji-and-japanese">Kanji And Japanese</a>
+                                        </td>
+                                        <td>
+                                            <a href="/chat/kanji-and-japanese/10161/page/2#post227027"><time class="timeago" datetime="2015-09-15T00:28:13Z">2015-09-15 00:28:13 UTC</time></a>
+                                            <br>by <a href="/community/people/ShotgunLagoon" target="_blank">ShotgunLagoon</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <hr>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description">
+                                            <a href="/chat/wanikani/10162" class="topic-title">Is skipping from apprentice to guru/master/enlighten/burn possible?</a><br>@ <a href="/chat/wanikani">WaniKani</a>
+                                        </td>
+                                        <td>
+                                            <a href="/chat/wanikani/10162/page/1#post227025"><time class="timeago" datetime="2015-09-15T00:24:11Z">2015-09-15 00:24:11 UTC</time></a>
+                                            <br>by <a href="/community/people/wholehole" target="_blank">wholehole</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <hr>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description">
+                                            <a href="/chat/kanji-and-japanese/9674" class="topic-title">Kumon Correspondence Japanese Lessons</a><br>@ <a href="/chat/kanji-and-japanese">Kanji And Japanese</a>
+                                        </td>
+                                        <td>
+                                            <a href="/chat/kanji-and-japanese/9674/page/1#post227023"><time class="timeago" datetime="2015-09-15T00:11:17Z">2015-09-15 00:11:17 UTC</time></a>
+                                            <br>by <a href="/community/people/Gex" target="_blank">Gex</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <hr>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description">
+                                            <a href="/chat/wanikani/10160" class="topic-title">The Sentence Samples</a><br>@ <a href="/chat/wanikani">WaniKani</a>
+                                        </td>
+                                        <td>
+                                            <a href="/chat/wanikani/10160/page/1#post227021"><time class="timeago" datetime="2015-09-15T00:00:02Z">2015-09-15 00:00:02 UTC</time></a>
+                                            <br>by <a href="/community/people/Aurura" target="_blank">Aurura</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <hr>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="description">
+                                            <a href="/chat/api-and-third-party-apps/8708" class="topic-title">Download the Tofugu 500 Sentences Here</a><br>@ <a href="/chat/api-and-third-party-apps">API And Third-Party Apps</a>
+                                        </td>
+                                        <td>
+                                            <a href="/chat/api-and-third-party-apps/8708/page/1#post227020"><time class="timeago" datetime="2015-09-14T23:59:41Z">2015-09-14 23:59:41 UTC</time></a>
+                                            <br>by <a href="/community/people/Aurura" target="_blank">Aurura</a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <div class="see-more">
+                                    <a href="/community" class="small-caps">Visit The Community Center...</a>
+                                </div>
+                            </section><!-- forum-topics-list -->
+                        </div><!-- span6 -->
+                        <div class="span6">
+                            <section class="blog dashboard-sub-section">
+                                <h3 class="small-caps invert">
+                                    <div class="heading-symbol"><i class="icon-rss"></i></div>
+                                    WaniKani News
+                                </h3>
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td><a href="http://blog.wanikani.com/post/128661578917">Out of Beta</a></td>
+                                        <td><a href="http://blog.wanikani.com/post/128661578917">September 08, 2015</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><hr></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://blog.wanikani.com/post/128370788492">Weekly Update 8/24 - 9/4</a></td>
+                                        <td><a href="http://blog.wanikani.com/post/128370788492">September 04, 2015</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><hr></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://blog.wanikani.com/post/128213455087">Monthly Update - 9/2</a></td>
+                                        <td><a href="http://blog.wanikani.com/post/128213455087">September 02, 2015</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><hr></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://blog.wanikani.com/post/127273467692">Weekly Update 8/17 - 8/21</a></td>
+                                        <td><a href="http://blog.wanikani.com/post/127273467692">August 21, 2015</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><hr></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="http://blog.wanikani.com/post/126700354782">Weekly Update 8/10 - 8/14</a></td>
+                                        <td><a href="http://blog.wanikani.com/post/126700354782">August 14, 2015</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <div class="see-more">
+                                    <a href="http://blog.wanikani.com" class="small-caps">See More News...</a>
+                                </div>
+                            </section><!-- blog -->
+                        </div><!-- span6 -->
+                    </div><!-- row -->
+
+                </div><!-- span12 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- dashboard -->
+
+    <ol id="wanikani-tour">
+
+        <li data-text="Start tour <i class='icon-arrow-right pull-right'></i>"></i>
+            <h4>Ready to burn some turtles?</h4>
+            <img alt="Poor turtle!" class="wanikani-tour-img" src="https://cdn.wanikani.com/assets/default-v2/tour/turtle-f78b29d3d2578bed470ccb1a1f77490d.png" title="Poor turtle!" />
+            <p>Before you begin your kanji learning adventure, will you join the Crabigator on a quick tour of the website?</p>
+        </li>
+
+        <li data-class="wanikani-tour-1" data-button="Next: Lessons<i class='icon-arrow-right pull-right'></i>">
+            <h4>Lessons and Reviews</h4>
+            <p>Learning Japanese radicals, kanji and vocabulary are broken into two sections: <strong>Lessons</strong> and <strong>Reviews</strong></p>
+            <p>The number of items available for you to learn and review are displayed in the navigation.</p>
+        </li>
+
+        <li data-class="wanikani-tour-2" data-button="Next: Reviews<i class='icon-arrow-right pull-right'></i>">
+            <h4>Lessons</h4>
+            <p>New radicals, kanji, and vocabulary are introduced to you in lessons. After going through a few lessons, you will be quizzed on the material. We employ the use of <strong>mnemonics</strong> to help you recall information.</p>
+            <p>Once you passed the quizzing, the kotoba will be added to the Review queue.</p>
+            <p>New lessons appear after certain requirements are met during your reviews.</p>
+        </li>
+
+        <li data-class="wanikani-tour-3" data-button="Next: SRS<i class='icon-arrow-right pull-right'></i>">
+            <h4>Reviews</h4>
+            <p>Reviews are the backbone of your radical, kanji, and vocabulary learning. Here you will be quizzed on the meaning and readings for kotoba that you have done lessons on.</p>
+            <p>To maximize your ability to recall the meanings and readings, WaniKani uses a <strong>spaced repetition system (SRS)</strong> to help maximize your retention of the item.</p>
+        </li>
+
+        <li data-button="Next: SRS Apprentice<i class='icon-arrow-right pull-right'></i>">
+            <h4>Spaced Repetition System</h4>
+            <div class="wanikani-tour-circle">SRS</div>
+            <p>Everytime you answer both the meaning and reading of the item correctly, it will move up an SRS level. Each increase in SRS level results in a larger time interval between your previous review and the reapperance of the kotoba in the reviews queue.</p>
+            <p>Depending on how many times you have answered the kotoba wrong, the kotoba can drop numerous SRS levels</p>
+            <p>We use a nine-level SRS that are grouped into five parts.</p>
+        </li>
+
+        <li data-button="Next: SRS Guru<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:right">
+            <h4>SRS Apprentice</h4>
+            <div class="srs-individual apprentice"></div>
+            <p>The first few SRS levels are grouped into Apprentice. Kotoba under Apprentice are either typically new to you or items you may have trouble with.</p>
+            <p>Time intervals for each level range from a couple hours to a few days.</p>
+        </li>
+
+        <li data-button="Next: SRS Master<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:right">
+            <h4>SRS Guru</h4>
+            <div class="srs-individual guru"></div>
+            <p>Guru represents items that you are getting a hang of. It consists of a couple SRS levels.</p>
+            <p>Time intervals for each level range from a week to a couple weeks.</p>
+        </li>
+
+        <li data-button="Next: SRS Enlightened<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:right">
+            <h4>SRS Master</h4>
+            <div class="srs-individual master"></div>
+            <p>Mastered items are just what they sound like; you have begun getting a good grasp at recognizing the item's meaning and reading!</p>
+            <p>Time interval for this level is a month.</p>
+        </li>
+
+        <li data-button="Next: SRS Burned<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:left">
+            <h4>SRS Enlightened</h4>
+            <div class="srs-individual enlighten"></div>
+            <p>Items at this level has transcended time and space. You don't need to think what the meaning and readings are, it comes naturally.</p>
+            <p>Time interval for this level is a few months.</p>
+        </li>
+
+        <li data-button="Next: Kotoba<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:left">
+            <h4>SRS Burned</h4>
+            <div class="srs-individual burned"></div>
+            <p>In your enlightened state, you decided to share your knowledge to the mortals by burning the kanji into turtle shells. You have proven your ability to recall the item's meaning and reading.</p>
+            <p>Items in this level are removed from the review queue. They can be resurrected by accessing their individual pages under the Levels, Radicals, Kanji, or Vocabulary dropdowns located on the navigation bar.</p>
+        </li>
+
+        <li data-button="Next: Radicals<i class='icon-arrow-right pull-right'></i>">
+            <h4>Radicals, Kanji, and Vocabulary</h4>
+            <div class="wanikani-tour-circle"><span lang="ja">ことば</span></div>
+            <p>What are radicals, kanji, and vocabulary exactly?</p>
+        </li>
+
+        <li data-button="Next: Kanji<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:left">
+            <h4>Radicals</h4>
+            <img alt="Radicals" class="wanikani-tour-img" src="https://cdn.wanikani.com/assets/default-v2/tour/radicals-8361dcb3a12a2eaef52074b146d76528.png" title="Radicals" />
+            <p>Radicals are the building blocks of kanji. Most kanji contain radical components that can be found in other kanji. The color blue is used to identify radicals.</p>
+            <p>We employ the use of mnemonics in our teachings that utilize these radicals to create a story in order to recall meaning and readings of kanji.</p>
+        </li>
+
+        <li data-button="Next: Vocabulary<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:left">
+            <h4>Kanji</h4>
+            <img alt="Kanji" class="wanikani-tour-img" src="https://cdn.wanikani.com/assets/default-v2/tour/kanji-a0b7d1acff0158e99fa778722fd5c768.png" title="Kanji" />
+            <p>Kanji are the Chinese characters used in the Japanese writing system. They are the building blocks for vocabulary. Kanji have two groups of readings: <strong>On'yomi</strong> (Chinese reading) and <strong>Kun'yomi</strong>. Within these groups kanji may contain many readings or none at all.</p>
+            <p>Instead of forcing you to learn both groups of readings, for Kanji we only ask for a single reading from the most common reading group, as we feel this is most important. The less common reading group may be covered later on if it appears in vocabulary.</p>
+            <p>Pink is used to identify kanji.</p>
+        </li>
+
+        <li data-button="Next: Leveling System<i class='icon-arrow-right pull-right'></i>" data-options="tipLocation:left">
+            <h4>Vocabulary</h4>
+            <img alt="Vocabulary" class="wanikani-tour-img" src="https://cdn.wanikani.com/assets/default-v2/tour/vocabulary-b58559c3398fadaec6f9db7434df0e2e.png" title="Vocabulary" />
+            <p>Vocabulary are the combination of kanji and kana to form words used in speech and writing</p>
+            <p>Purple is used to identify vocabulary.</p>
+            <p>There is one last thing we would like to cover before the end of the tour: the leveling system.</p>
+        </li>
+
+        <li data-button="Next: How To Level Up?<i class='icon-arrow-right pull-right'></i>">
+            <h4>Leveling System</h4>
+            <div class="wanikani-tour-circle">+1</div>
+            <p>New material are presented to you in levels. Each level contains a number of radicals, kanji, and vocabulary.</p>
+            <p>When reaching a new level, all radicals of that level are automatically unlocked to you for lessons.</p>
+            <p>Kanji can only be unlocked if the radicals that compose it have reached SRS Guru and if your current level is equal to or greater than the kanji level.</p>
+            <p>Vocabulary unlocks occur when every kanji used to compose the word have reached Guru and if your current level is equal to or greater than the vocab's level.</p>
+        </li>
+
+        <li data-button="Next: End Of Tour<i class='icon-arrow-right pull-right'></i>">
+            <h4>How To Level Up?</h4>
+            <div class="wanikani-tour-circle">90%</div>
+            <p>Leveling up is largely dictated by the percentage of current level kanji that have made it to Guru, which is set to 90%.</p>
+            <p>Radicals have an indirect effect to leveling up since kanji unlocks rely on your radical performance.</p>
+            <p>Your performance in vocabulary has no effect on how you level.</p>
+        </li>
+
+        <li data-button="Close<i class='icon-close pull-right'></i>">
+            <h4>End Of Tour</h4>
+            <img alt="Complete!" class="wanikani-tour-img" src="https://cdn.wanikani.com/assets/default-v2/tour/thumbs-up-0d5b7cddf105dec932d711ab6dee2c90.png" title="Complete!" />
+            <p>We have briefly gone over the concepts of the site.</p>
+            <p>For a more in-depth information, please check out the <a href="/guide">WaniKani Guide</a>.</p>
+            <p>Thank you for using WaniKani. If you have any questions, please <a href="mailto:hello@wanikani.com">email us</a>.</p>
+        </li>
+    </ol>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Variables
+            var info = {"user_information":{"username":"Morganjo","gravatar":"816aa845e78487405cf035d3bc4f1f73","level":3,"title":"Guppies","about":"","website":null,"twitter":null,"topics_count":0,"posts_count":0,"creation_date":1420504634},"requested_information":{"next_review_date":1442277074,"reviews_available_next_hour":0,"reviews_available_next_day":0}};
+            var levelProgression = {"requested_information":{"radicals_progress":0,"radicals_total":22,"kanji_progress":0,"kanji_total":33}};
+            var srsCounts = {"requested_information":{"apprentice":{"radicals":0,"kanji":4,"vocabulary":28,"total":32},"guru":{"radicals":9,"kanji":34,"vocabulary":52,"total":95},"master":{"radicals":21,"kanji":1,"vocabulary":13,"total":35},"enlighten":{"radicals":20,"kanji":16,"vocabulary":16,"total":52},"burned":{"radicals":10,"kanji":1,"vocabulary":0,"total":11}}};
+
+            // Fills in SRS counts
+            Counts.fillInSrsCount(srsCounts.requested_information);
+
+            // Set progress bars
+            Charting.setProgressBar('.radicals-progress', levelProgression.requested_information.radicals_progress, levelProgression.requested_information.radicals_total);
+            Charting.setProgressBar('.kanji-progress', levelProgression.requested_information.kanji_progress, levelProgression.requested_information.kanji_total);
+
+            // Set dashboard elements
+            Dashboard.set(info, [[282, false, 100], [121, false, 100], [105, false, 100], [104, false, 100], [102, false, 100], [101, false, 100], [100, false, 100], [99, false, 100], [98, false, 100], [97, false, 100], [96, false, 100], [95, false, 100], [91, false, 100], [87, false, 100], [85, false, 100], [83, false, 100], [94, false, 100], [89, false, 100], [86, false, 100], [103, false, 100], [137, false, 100], [93, false, 100]], [[75, false, 100], [71, false, 100], [85, false, 100], [64, false, 100], [65, false, 100], [66, false, 100], [57, false, 100], [68, false, 100], [63, false, 100], [84, false, 100], [70, false, 100], [78, false, 100], [79, false, 100], [69, false, 100]], false);
+
+
+            // Replace dates with fuzzy dates
+            DateTime.activateFuzzyDate();
+
+            // SRS popover
+            InfoTip.popoverLattice();
+            InfoTip.popoverSrs();
+
+            // Message Status
+            Dashboard.messageStatus();
+        });
+    </script>
+    <div class="footer-push"></div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <ul>
+                    <li>
+                        <a href="/about">About</a>
+                    </li><li>
+                    <a href="http://blog.wanikani.com/">Blog</a>
+                </li><li>
+                    <a href="/api">API</a>
+                </li><li>
+                    <a href="/faq">FAQ</a>
+                </li><li>
+                    <a href="/terms" target="_blank">Terms</a>
+                </li><li>
+                    <a href="/privacy" target="_blank">Privacy</a>
+                </li><li>
+                    <a href="mailto:hello@wanikani.com">Contact</a>
+                </li><li>
+                    Copyright © Tofugu LLC, <span lang="ja">よ</span>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Kissmetrics tracking snippet -->
+<script type="text/javascript">var _kmq = _kmq || [];
+var _kmk = _kmk || 'b85c655f1149af04c047ac9e06bc315688197874';
+function _kms(u){
+    setTimeout(function(){
+        var d = document, f = d.getElementsByTagName('script')[0],
+                s = d.createElement('script');
+        s.type = 'text/javascript'; s.async = true; s.src = u;
+        f.parentNode.insertBefore(s, f);
+    }, 1);
+}
+_kms('//i.kissmetrics.com/i.js');
+_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1960021-27']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var studyInformation = {"user_information":{"username":"Morganjo","gravatar":"816aa845e78487405cf035d3bc4f1f73","level":3,"title":"Guppies","about":"","website":null,"twitter":null,"topics_count":0,"posts_count":0,"creation_date":1420504634},"requested_information":{"lessons_available":"42+","reviews_available":"42+","next_review_date":1442277074}};
+        // Navbar items
+        NavBar.setUserCounts(studyInformation.requested_information.lessons_available, studyInformation.requested_information.reviews_available, studyInformation.user_information.level, false);
+        NavBar.toggleAdditionalButtonActiveState();
+        NavBar.tooltipReviewTime(studyInformation.requested_information.next_review_date, false);
+
+        // Navbar scrolling menu
+        NavBar.scrolledMenuBar();
+
+        // Tooltip
+        InfoTip.tooltip();
+
+        // KISSMETRICS — Identify user
+        _kmq.push(['identify', 'Morganjo' ]);
+
+    });
+</script>
+
+</body>
+</html><!-- html -->
